@@ -12,6 +12,7 @@ data class LocalWeather(
         val snwo: Snow? = Snow(),
         val dt: Long = 0,
         val sys: Sys = Sys(),
+        val timezone: Long = 0,
         val id: Long = 0,
         val name: String = "",
         val cod: Int = 0
